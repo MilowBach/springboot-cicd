@@ -15,7 +15,10 @@
 	<description>Demo project for Spring Boot for CI CD</description>
 	<properties>
 		<java.version>11</java.version>
+		<sonar.organization>milowbach</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -34,6 +37,8 @@
 			<artifactId>javafaker</artifactId>
 			<version>1.0.2</version>
 		</dependency>
+
+
 
 	</dependencies>
 
