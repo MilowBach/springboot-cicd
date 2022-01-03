@@ -13,7 +13,7 @@ public class DataController {
 
     @GetMapping("/")
     public String healthCheck(){
-        return "HEALTH CHECK OK YES WOt!";
+        return "HEALTH CHECK OK YES WOW!";
     }
 
     @GetMapping("/version")
