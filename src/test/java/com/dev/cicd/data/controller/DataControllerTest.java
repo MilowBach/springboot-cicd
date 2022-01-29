@@ -14,7 +14,7 @@ class DataControllerTest {
 
     @Test
     void health(){
-        assertEquals( "HEALTH CHECK OK YES WOW!", dataController.healthCheck());
+        assertEquals( "HEALTH CHECK OK YES WOW !", dataController.healthCheck());
     }
 
     @Test
